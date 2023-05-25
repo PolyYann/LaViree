@@ -1,9 +1,8 @@
-import {DataGoogle} from "../../../Laviree/laviree/sanity/types/componentTypes";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, {useEffect, useState} from "react";
+import {DataGoogle} from "@/sanity/types/componentTypes";
 import FetchImages from "@/app/api/fetch/FetchImages";
-import {useEffect, useState} from "react";
+import Slider from "react-slick";
+
 interface CarouselProps{
 folderId: string;
 }

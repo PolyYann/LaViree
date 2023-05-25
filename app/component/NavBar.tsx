@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {AiOutlineMenu} from 'react-icons/ai';
-import logo from '../../../Laviree/laviree/public/logoNavWhite.png';
+import logo from '@/public/logoNavWhite.png';
 import {useMediaQuery} from 'react-responsive';
 import { Page } from '../../../Laviree/laviree/sanity/types/Page';
 interface NavBarProps {

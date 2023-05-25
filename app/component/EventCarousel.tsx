@@ -1,6 +1,6 @@
 import React from 'react';
 import {Event} from "../../../Laviree/laviree/sanity/types/componentTypes";
-
+import Image from "next/image";
 interface CarouselProps {
     events: Event[];
 }
@@ -14,7 +14,7 @@ const Carousel: React.FC<CarouselProps> = ({events}) => {
                 {events.map(event => (
                     <div key={event.id}>
                         <h3>{event.name}</h3>
-                        {event.cover && <img src={event.cover.source} alt={event.name}/>}
+                        {event.cover && <Image src={event.cover.source} alt={event.name}/>}
                         <p>{event.description}</p>
                     </div>
                 ))}

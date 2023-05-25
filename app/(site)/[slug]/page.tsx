@@ -1,6 +1,5 @@
 import { getPage } from "../../../../Laviree/laviree/sanity/sanity-utils";
-import { PortableText } from "@portabletext/react";
-import VideoHeader from "@/app/component/VideoHeader";
+
 
 type Props = {
   params: { slug: string }

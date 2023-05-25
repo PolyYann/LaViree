@@ -1,4 +1,5 @@
 import '../globals.css'
+import React from "react";
 
 export const metadata = {
   title: 'La virée des Ateliers',
